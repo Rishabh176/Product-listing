@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+body{
+  padding: 100px 50px;
+  background: #efefef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-container{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-base{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.product-base{
+  width: 300px;
+  margin-bottom: 50px;
+  padding: 16px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product_base{
+  padding: 16px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-base img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product_base img{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  margin-bottom: 30px;
+}
+
+.product-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 6px; 
+}
+
+.product_title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-size: 25px;
+}
+
+.product-description{
+  font-family: system-ui;
+  font-size: 12px;
+  margin-bottom: 23px;
+  height: 100px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.product_description{
+  font-family: system-ui;
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.product-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-rating{
+  display: flex;
+  flex-direction: row;
+}
+
+.product-price{
+  color: #ee2828;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.product_price{
+  color: #ee2828;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.product_Categories{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.item_category{
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.rating-value{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.product-rating img{
+width: 23px;
+height: 21px;
+margin-left: 2px;
+}
+
+.more-button{
+  width: 200px;
+  height: 50px;
+  border: 2px solid;
+  color: black;
+  font-family: auto;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-container{
+  position: relative;
+  height: 100px;
 }
