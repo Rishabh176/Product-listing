@@ -1,3 +1,12 @@
+#Instruction to run the project 
+
+1. Clone Master Branch on your desktop
+2. open the folder and run npm install to install the packages and node modules
+3. run npm start in your terminal
+4. open localhost:3000
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
